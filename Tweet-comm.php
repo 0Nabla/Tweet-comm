@@ -24,7 +24,7 @@ $URL = 'https://github.com/'.$username.'.atom';
 function get_XML_file ($URL)
 {
 
-	$output = file_get_contents($URL);
+    $output = file_get_contents($URL);
     return $output;
 
 }
